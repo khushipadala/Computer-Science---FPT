@@ -13,7 +13,6 @@ function Ball(){
     fill(255);
     ellipse(this.pos.x, this.pos.y, this.r*2);
   }
-
   this.update = function(){
     this.pos.add(this.acc);
 
@@ -21,7 +20,6 @@ function Ball(){
       this.acc.y*=-1;
     }
   }
-
  }
     
     
